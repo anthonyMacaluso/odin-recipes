@@ -1,0 +1,35 @@
+/* CSS Styles */
+
+body {
+    background-color: #f7f7f7;
+    color: black;
+    font: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    font: Arial;
+    background-color: #a0a0a0;
+    border: none;
+    color: #f7f7f7;
+    padding: 32px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.softedges {
+    display: block;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    max-height: auto;
+
+}
