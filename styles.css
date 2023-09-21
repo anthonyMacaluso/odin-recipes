@@ -3,24 +3,40 @@
 body {
     background-color: #f7f7f7;
     color: black;
-    font: Arial;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
     text-align: center;
 }
 
+.homebutton {
+    font-family: Arial, sans-serif;
+    background-color: #cff7e7;
+    border: none;
+    color: #a0a0a0;
+    padding: 14px 28px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline;
+    border-radius: 10px
+}
+
 .button {
-    font: Arial;
+    font-family: Arial, sans-serif;
     background-color: #a0a0a0;
     border: none;
     color: #f7f7f7;
-    padding: 32px 16px;
+    padding: 14px 28px;
     text-align: center;
-    display: inline-block;
+    display: block;
     font-size: 16px;
-    text-decoration: none;
-    display: inline-block;
+    /* text-decoration: none; */
+    cursor: pointer;
+    display: block;
+    width: 100%;
     border-radius: 10px;
 }
 
