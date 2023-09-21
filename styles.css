@@ -4,6 +4,7 @@ body {
     background-color: #f7f7f7;
     color: black;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -12,16 +13,16 @@ h1 {
 
 .homebutton {
     font-family: Arial, sans-serif;
-    background-color: #cff7e7;
+    background-color: #a0a0a0;
     border: none;
-    color: black;
+    color: #f7f7f7;
     padding: 14px 28px;
     text-align: center;
     display: block;
     font-size: 16px;
     cursor: pointer;
     display: inline;
-    border-radius: 10px
+    /* border-radius: 10px */
 }
 
 .button {
@@ -51,7 +52,7 @@ h1 {
 
 }
 
-/* .testing {
+.testing {
     display: block;
     width: 100%;
     border: none;
@@ -61,4 +62,4 @@ h1 {
     cursor: pointer;
     text-align: center;
     margin-bottom: 10px;
-} */
+}
