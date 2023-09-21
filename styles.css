@@ -37,8 +37,8 @@ h1 {
     cursor: pointer;
     display: block;
     width: 100%;
-    border-radius: 10px;
-    margin: 10px;
+    /* border-radius: 10px; */
+    margin-bottom: 10px;
 }
 
 .softedges {
@@ -49,4 +49,16 @@ h1 {
     width: 400px;
     max-height: auto;
 
+}
+
+.testing {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #cff7e7;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 10px;
 }
